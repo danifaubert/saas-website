@@ -1,0 +1,65 @@
+.topbar{
+  background-color: #522806;
+  color: #fff;
+  min-height: 6em;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo-text {
+  display: inline-block;
+  width: 9em;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a span {
+  border-bottom: .3rem solid #bea59b;
+}
+
+.nav a:hover span,
+.nav a:focus span {
+  border-bottom-color: #fff;
+}
+
+.btn-banner {
+  background-color: #e64058;
+  border-color: #e64058;
+  color: #000;
+}
+
+.lets, .get {
+  background-color: #fff;
+  color: #000;
+}
+
+.color {
+  background-color: #ddd;
+}
+
+.img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.cardground {
+  background-color: #efefef;
+}
+
+.table-wrapper {
+  background-color: #fff;
+}
+
+.cards {
+  background-color: #fff;
+  border-radius: 6px;
+}
