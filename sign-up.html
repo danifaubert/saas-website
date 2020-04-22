@@ -4,23 +4,99 @@
   <meta charset="utf-8">
   <title>Fishing/Sign In</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
-  <link href="css/modules.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <div class="topbar grid grid-middle gutter">
-    <h1 class="logo push-0 unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2">
-      <span class="logo-text giga icon-label text-left">Fishing-ja</span>
-    </h1>
-    <nav class="nav unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2">
-      <ul class="list-group-inline mega push-0">
-        <li><a class="gutter-1-4 btn current" href="sign-up.html">Sign In</a></li>
-        <li><a class="gutter-1-4 btn" href="tour.html">About</a></li>
-        <li><a class="gutter-1-4 btn" href="pricing.html">About</a></li>
-      </ul>
-    </nav>
-  </div>
-</body>
-</html>
+
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to the main content</a></li>
+    <li><a href="#fishing-plans">Skip to the fishing plans</a></li>
+  </ul>
+
+  <header role="banner">
+    <div class="banner grid grid-middle gutter">
+      <h1 class="logo push-0 unit center-flow [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2">
+        <span class="logo-text giga icon-label text-left">Fishing-ja</span>
+      </h1>
+      <nav class="unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2 center-flow" role="navigation" id="nav" tabindex="0">
+        <ul class="list-group-inline mega push-0">
+          <li><a class="gutter-1-4 btn" href="sign-up.html">Sign In</a></li>
+          <li><a class="gutter-1-4 btn" href="tour.html">About</a></li>
+          <li><a class="gutter-1-4 btn" href="pricing.html">pricing</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main" id="main" tabindex="0">
+    <div class="banner embed embed-5by1 pad-t-1-8">
+      <img class="embed-item img-s" src="images/adventure-boating-boats-clouds-301738.jpg" alt="">
+      <div class="contact sigh-ups pad-t-1-4 pad-b-1-4">
+        <section class="contact push-2 pad-t-2">
+          <div class="sigh-banner max-length">
+            <h1 class="not-bold">Sign Up</h1>
+
+            <fieldset class="push-none">
+              <legend class="italic not-bold mega push-none">enter the following information </legend>
+            </fieldset>
+
+            <form class="push-0" method="POST" action="http://formspree.io/bradlet">
+              <div class="grid">
+                <div class="unit mega push xs-1 s-1 m-1 l-1-2 padding-right">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" required>
+                </div>
+
+                <div class="unit mega push xs-1 s-1 m-1 l-1-2">
+                  <label for="age">Age</label>
+                  <input id="age" name="date" required>
+                </div>
+
+                <div class="unit mega push xs-1 s-1 m-1 l-1-2 padding-right">
+                  <label for="email">Email</label>
+                  <input id="email" type="email" name="email" required>
+                </div>
+
+                <div class="unit mega push xs-1 s-1 m-1 l-1-2">
+                  <label for="province">Province</label>
+                  <input id="province" list="province-list" required>
+                  <datalist id="province-list">
+                    <option value="Alberta">
+                      <option value="Ontario">
+                        <option value="Québec">
+                          <option value="Nova Scotia">
+                          </datalist>
+                        </div>
+                      </div>
+
+                      <div class="push">
+                        <label for="details">Address</label>
+                        <textarea id="details" name="message" required></textarea>
+                      </div>
+
+                      <div class="center-content">
+                        <button class="btn btn-light mega" type="submit">Sign up now!</button>
+                        <input type="hidden" name="_subject" value="Request to join the mission">
+                      </div>
+                    </form>
+                  </div>
+                </section>
+              </div>
+            </div>
+        </main>
+
+        <footer class="bold footer pad-t-1-2 pad-b-1-2" role="contentinfo">
+          <div class="bold wrapper gutter-1-2">
+            <nav>
+              <ul class="list-group-inline mega push-0">
+                <li><a class="gutter-1-4 btn" href="index.html">Back to Home Homepage</a></li>
+              </ul>
+            </nav>
+          </div>
+        </footer>
+      </body>
+      </html>

@@ -1,6 +1,6 @@
 .banner {
   background-color: #522806;
-  color: #fff;
+  color: #000;
   min-height: 6em;
 }
 
@@ -86,4 +86,17 @@
   margin-right: .1em;
   max-width: 16em;
   width: 100%;
+}
+
+.sigh-ups {
+  position: relative;
+}
+
+.img-s {
+  position: absolute;
+}
+
+.sigh-banner {
+  background-color: #fff;
+  border-color: #fff;
 }
