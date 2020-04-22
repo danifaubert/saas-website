@@ -1,5 +1,5 @@
 .banner {
-  background-color: #522806;
+  background-color: #bbd8bb;
   color: #000;
   min-height: 6em;
 }
@@ -34,6 +34,12 @@
 .btn-banner {
   background-color: #e64058;
   border-color: #e64058;
+  color: #000;
+}
+
+.btn-sigh {
+  background-color: #729171;
+  border-color: #729171;
   color: #000;
 }
 
