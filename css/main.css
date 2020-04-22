@@ -1,3 +1,7 @@
+html {
+  font-family: Lato, sans-serif;
+}
+
 .banner {
   background-color: #bbd8bb;
   color: #000;
@@ -9,6 +13,7 @@
 }
 
 .logo-text {
+  font-family: "Rock Salt", cursive;
   display: inline-block;
   width: 9em;
 }
@@ -26,11 +31,6 @@
   border-bottom: .3rem solid #bea59b;
 }
 
-.nav a:hover span,
-.nav a:focus span {
-  border-bottom-color: #fff;
-}
-
 .btn-banner {
   background-color: #e64058;
   border-color: #e64058;
@@ -40,6 +40,18 @@
 .btn-sigh {
   background-color: #729171;
   border-color: #729171;
+  color: #000;
+}
+
+.btn-banner:hover {
+  background-color: #bbd8bb;
+  border-color: #bbd8bb;
+  color: #000;
+}
+
+.btn-sigh:hover {
+  background-color: #e64058;
+  border-color: #e64058;
   color: #000;
 }
 
@@ -88,8 +100,8 @@
 }
 
 .wrap {
-  margin-left: .1em;
-  margin-right: .1em;
+  margin-left: .2em;
+  margin-right: .2em;
   max-width: 16em;
   width: 100%;
 }
