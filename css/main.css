@@ -1,4 +1,4 @@
-.topbar{
+.banner {
   background-color: #522806;
   color: #fff;
   min-height: 6em;
@@ -79,4 +79,11 @@
 
 .card3 {
   background-color: #efefef;
+}
+
+.wrap {
+    margin-left: .1em;
+    margin-right: .1em;
+    max-width: 16em;
+    width: 100%;
 }

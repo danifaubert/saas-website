@@ -10,12 +10,13 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+
   <header>
-    <div class="topbar grid grid-middle gutter">
+    <div class="banner grid grid-middle gutter">
       <h1 class="logo push-0 unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2">
         <span class="logo-text giga icon-label text-left">Fishing-ja</span>
       </h1>
-      <nav class="nav unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2">
+      <nav class="unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2">
         <ul class="list-group-inline mega push-0">
           <li><a class="gutter-1-4 btn" href="sign-up.html">Sign In</a></li>
           <li><a class="gutter-1-4 btn" href="tour.html">About</a></li>
@@ -36,33 +37,12 @@
     </div>
   </div>
 
-  <div class="gutter text-center pad-t-1-2">
-    <div class="card1 unit xs-1 s-1 m-1 l-1-4 table-wrapper gutter-1-2 push-r-1-2 border-box">
-      <table class="unit pad-t-1-8">
-        <thead>
-          <tr>
-            <th class="bold giga text-center pad-b-2" scope="col">Fishing Day</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th rowspan="1" scope="row">2 Deep Diving Crank</th>
-          </tr>
-          <tr>
-            <th rowspan="1" scope="row">1 Jerk-bait</th>
-          </tr>
-          <tr>
-            <th rowspan="1" scope="row">Small Pack of Soft plastic Stick-bait</th>
-          </tr>
-          <tr>
-            <th rowspan="1" scope="row">Fish Print Bandana</th>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="card2 unit xs-1 s-1 m-1 l-1-4 table-wrapper gutter-1-2 push-r-1-2">
-      <table class="unit pad-t-1-8">
+  <div class="contact pad-t-1-4 pad-b-1-4">
+    <div>
+      <div class="grid grid-middle">
+    <div class="card1 unit mega xs-1 s-1-2 m-1-3 l-1-3">
+      <table class="unit pad-t-1-8 wrap">
+        <caption class="unit-xs-hidden unit-s-hidden unit-m-hidden unit-l-hidden">Fishing-Plans</caption>
         <thead>
           <tr class="fishing-day">
             <th class="bold giga text-center pad-b-2" scope="col">Fishing Day</th>
@@ -85,10 +65,36 @@
       </table>
     </div>
 
-    <div class="card3 unit xs-1 s-1 m-1 l-1-4 table-wrapper gutter-1-2 push-r-1-2">
-      <table class="unit pad-t-1-8">
+    <div class="card2 unit mega xs-1 s-1-2 m-1-3 l-1-3">
+      <table class="unit pad-t-1-8 xs-1 s-1 m-1 wrap">
+        <caption class="unit-xs-hidden unit-s-hidden unit-m-hidden unit-l-hidden">Important dinosaur discoveries from history.</caption>
         <thead>
+          <tr class="fishing-day">
+            <th class="bold giga text-center pad-b-2" scope="col">Fishing Day</th>
+          </tr>
+        </thead>
+        <tbody>
           <tr>
+            <th rowspan="1" scope="row">2 Deep Diving Crank</th>
+          </tr>
+          <tr>
+            <th rowspan="1" scope="row">1 Jerk-bait</th>
+          </tr>
+          <tr>
+            <th rowspan="1" scope="row">Small Pack of Soft plastic Stick-bait</th>
+          </tr>
+          <tr>
+            <th rowspan="1" scope="row">Fish Print Bandana</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card3 unit mega xs-1 s-1-2 m-1-3 l-1-3">
+      <table class="unit pad-t-1-8 wrap xs-1 s-1">
+        <caption class="unit-xs-hidden unit-s-hidden unit-m-hidden unit-l-hidden">Important dinosaur discoveries from history.</caption>
+        <thead>
+          <tr class="fishing-day">
             <th class="bold giga text-center pad-b-2" scope="col">Fishing Day</th>
           </tr>
         </thead>
@@ -109,5 +115,57 @@
       </table>
     </div>
   </div>
+  </div>
+  </div>
+
+  <section class="contact push-2 gutter-1-4 pad-t-1-2">
+  <div class="wrapper">
+    <form class="push-0" method="POST" action="http://formspree.io/bradlet">
+      <div class="grid">
+        <div class="unit mega push xs-1 s-1 m-1-3 l-1-3">
+          <label class="text-center" for="subject">Help?</label>
+          <select id="subject" name="_subject">
+            <option>Help Centre </option>
+            <option>FAQs</option>
+            <option>Blog</option>
+          </select>
+        </div>
+
+        <div class="unit mega push xs-1 s-1 m-1-3 l-1-3">
+          <label class="text-center" for="subject">Connect</label>
+          <select id="subject" name="_subject">
+            <option>Contact Center</option>
+            <option>Contact Us</option>
+            <option>Reviews</option>
+          </select>
+          </div>
+
+        <div class="unit mega push xs-1 s-1 m-1-3 l-1-3">
+          <label class="text-center" for="subject">About Us</label>
+          <select id="subject" name="_subject">
+            <option>T&C</option>
+            <option>History</option>
+            <option>Developers</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="center-content">
+        <button class="btn btn-light mega" type="submit">Register today for 50% off!</button>
+        <input type="hidden" name="_subject" value="Request to join the mission">
+      </div>
+      </form>
+      </div>
+</section>
+
+<div class="grid island-1-2">
+<div class="nav unit xs-1 s-1 m-1 1-1">
+        <form class="relative" action="/authenticate">
+          <label class="search-icon icon i-18 pin-lc" for="find" title="search" style="margin-left: .3em;"><img src="images/searchic.svg" alt="Find"></label>
+          <input class="search-input" type="search" id="find" required>
+        </form>
+      </div>
+    </div>
+
 </body>
 </html>
