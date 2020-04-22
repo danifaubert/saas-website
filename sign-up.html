@@ -21,9 +21,9 @@
 
   <header role="banner">
     <div class="banner grid grid-middle gutter">
-      <h1 class="logo push-0 unit center-flow [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2">
-        <span class="logo-text giga icon-label text-left">Fishing-ja</span>
-      </h1>
+      <article class="logo push-0 unit center-flow [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2" role="article" id="article" tabindex="0">
+        <h1 class="logo-text giga icon-label text-left">Fishing-ja</h1>
+      </article>
       <nav class="unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2 center-flow" role="navigation" id="nav" tabindex="0">
         <ul class="list-group-inline mega push-0">
           <li><a class="gutter-1-4 btn" href="sign-up.html">Sign In</a></li>
@@ -37,59 +37,59 @@
   <main role="main" id="main" tabindex="0">
     <div class="banner embed embed-5by1 pad-t-1-8">
       <img class="embed-item" role="presentation" src="images/adventure-boating-boats-clouds-301738.jpg" alt="">
-      <div class="contact sigh-ups pad-t-1-4 pad-b-1-4">
-        <section class="contact push-2 pad-t-2" id="section" tabindex="0">
-          <div class="sigh-banner max-length">
-            <h2 class="not-bold">Sign Up</h2>
+      <section class="contact push-2 pad-t-2" id="section" tabindex="0">
+        <div class="contact sigh-ups pad-t-1-4 pad-b-1-4">
+          <div class="contact push-2 pad-t-2">
+            <div class="sigh-banner max-length">
+              <h2 class="not-bold">Sign Up</h2>
 
-            <article id="article" tabindex="0">
               <fieldset class="push-none">
                 <legend class="italic not-bold mega push-none">enter the following information </legend>
               </fieldset>
-            </article>
 
-            <form class="push-0" method="POST" action="http://formspree.io/bradlet">
-              <div class="grid">
-                <div class="unit mega push xs-1 s-1 m-1 l-1-2 padding-right">
-                  <label for="name">Name</label>
-                  <input id="name" name="name" required>
+              <form class="push-0" method="POST" action="http://formspree.io/bradlet">
+                <div class="grid">
+                  <div class="unit mega push xs-1 s-1 m-1 l-1-2 padding-right">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" required>
+                  </div>
+
+                  <div class="unit mega push xs-1 s-1 m-1 l-1-2">
+                    <label for="age">Age</label>
+                    <input id="age" name="date" required>
+                  </div>
+
+                  <div class="unit mega push xs-1 s-1 m-1 l-1-2 padding-right">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" required>
+                  </div>
+
+                  <div class="unit mega push xs-1 s-1 m-1 l-1-2">
+                    <label for="province">Province</label>
+                    <input id="province" list="province-list" required>
+                    <datalist id="province-list">
+                      <option value="Alberta"></option>
+                      <option value="Ontario"></option>
+                      <option value="Québec"></option>
+                      <option value="Nova Scotia"></option>
+                    </datalist>
+                  </div>
                 </div>
 
-                <div class="unit mega push xs-1 s-1 m-1 l-1-2">
-                  <label for="age">Age</label>
-                  <input id="age" name="date" required>
+                <div class="push">
+                  <label for="details">Address</label>
+                  <textarea id="details" name="message" required></textarea>
                 </div>
 
-                <div class="unit mega push xs-1 s-1 m-1 l-1-2 padding-right">
-                  <label for="email">Email</label>
-                  <input id="email" type="email" name="email" required>
+                <div class="center-content">
+                  <button class="btn btn-light mega" type="submit">Sign up now!</button>
+                  <input type="hidden" name="_subject" value="Request to join the mission">
                 </div>
-
-                <div class="unit mega push xs-1 s-1 m-1 l-1-2">
-                  <label for="province">Province</label>
-                  <input id="province" list="province-list" required>
-                  <datalist id="province-list">
-                    <option value="Alberta"></option>
-                    <option value="Ontario"></option>
-                    <option value="Québec"></option>
-                    <option value="Nova Scotia"></option>
-                  </datalist>
-                </div>
-              </div>
-
-              <div class="push">
-                <label for="details">Address</label>
-                <textarea id="details" name="message" required></textarea>
-              </div>
-
-              <div class="center-content">
-                <button class="btn btn-light mega" type="submit">Sign up now!</button>
-                <input type="hidden" name="_subject" value="Request to join the mission">
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </div>
   </main>
 
